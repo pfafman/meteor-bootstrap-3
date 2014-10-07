@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Bootstrap 3 packaged for meteor",
-  version: "3.2.0",
+  version: "3.2.0_1",
   git: "https://github.com/pfafman/meteor-bootstrap-3.git"
 });
 
