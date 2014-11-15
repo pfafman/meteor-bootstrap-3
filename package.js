@@ -1,11 +1,11 @@
 Package.describe({
   summary: "Bootstrap 3 packaged for meteor",
-  version: "3.3.0",
+  version: "3.3.1",
   git: "https://github.com/pfafman/meteor-bootstrap-3.git"
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@0.9.0');
+  api.versionsFrom('METEOR@1.0');
   api.use('jquery', 'client');
   api.addFiles([
     'lib/css/bootstrap.css',
