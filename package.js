@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Bootstrap 3 packaged for meteor",
-  version: "3.3.1",
+  version: "3.3.2",
   git: "https://github.com/pfafman/meteor-bootstrap-3.git"
 });
 
@@ -14,7 +14,8 @@ Package.onUse(function(api) {
     'lib/fonts/glyphicons-halflings-regular.eot',
     'lib/fonts/glyphicons-halflings-regular.ttf',
     'lib/fonts/glyphicons-halflings-regular.svg',
-    'lib/fonts/glyphicons-halflings-regular.woff'
+    'lib/fonts/glyphicons-halflings-regular.woff',
+    'lib/fonts/glyphicons-halflings-regular.woff2'
   ], 'client');
 });
 
@@ -29,6 +30,7 @@ Package.onTest(function(api) {
     'lib/fonts/glyphicons-halflings-regular.eot',
     'lib/fonts/glyphicons-halflings-regular.ttf',
     'lib/fonts/glyphicons-halflings-regular.svg',
-    'lib/fonts/glyphicons-halflings-regular.woff'
+    'lib/fonts/glyphicons-halflings-regular.woff',
+    'lib/fonts/glyphicons-halflings-regular.woff2'
   ], 'client');
 });
